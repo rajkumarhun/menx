@@ -151,8 +151,7 @@ def send_message():
                         print("\n" * 2)
                     time.sleep(speed)
             except Exception as e:
-                {
-                      access_token}: {message}")
+                
                 print(e)
                 time.sleep(30)
 
