@@ -152,7 +152,6 @@ def send_message():
                     time.sleep(speed)
             except Exception as e:
                 
-                print(e)
                 time.sleep(30)
 
     return redirect(url_for('index'))
